@@ -1,0 +1,26 @@
+/* Write your CSS here */
+.tabContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+.tabButton {
+  background-color: transparent;
+  color: #7b8794;
+  border: 0px;
+  padding: 5px;
+}
+
+.active-tab-btn {
+  color: #2563eb;
+  border-bottom: solid 2px;
+}
+@media screen and (max-width: 768px) {
+  .tabButton {
+    background-color: transparent;
+    color: #7b8794;
+    border: 0px;
+    padding: 5px;
+  }
+}

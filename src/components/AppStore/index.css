@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #1e293b;
+  font-size: 30px;
+}
+.search {
+  background-color: transparent;
+  border: none;
+  border-color: #7b8794;
+  flex-grow: 1;
+}
+.searchIcon {
+  width: 20px;
+  height: 20px;
+}
+.tab-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appItem-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+.Apps {
+  margin: 20px;
+}
+.searching {
+  display: flex;
+  flex-direction: row;
+  border: solid 2px;
+  border-color: #7b8794;
+  width: 35%;
+  border-radius: 4px;
+}
+@media screen and (max-width: 768px) {
+  .searching {
+    display: flex;
+    flex-direction: row;
+    border: solid 2px;
+    border-color: #7b8794;
+    width: 50%;
+    border-radius: 4px;
+  }
+  .search {
+    background-color: transparent;
+    border: none;
+    border-color: #7b8794;
+    flex-grow: 1;
+  }
+}
